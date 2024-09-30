@@ -8,7 +8,7 @@ const Home = () => {
 	return (
 		<div className='home'>
 			<div className='home__container'>
-				<h2>Organize it all</h2>
+				<h2>Organize tasks</h2>
 				<p>With TaskManager</p>
 
 				{currentUser && currentUser.token ? (
